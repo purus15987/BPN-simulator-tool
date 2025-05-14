@@ -1,0 +1,359 @@
+.App{
+    position: relative;
+    height: 100vh;
+    display: flex;
+}
+.home{
+    display:flex;
+}
+.navbar{
+    width: 20%;
+    height: 100%;
+    background-color: antiquewhite;
+    border-right: solid;
+}
+.bpn_logo{
+    width: 80%;
+    margin: 10%;
+    margin-top: 5%;
+    border: solid;
+    border-radius: 5%;
+}
+.body-container{
+    width: 80%;
+    height: 100%;
+}
+.titlebar{
+    height: 115px;
+    border-bottom:solid;
+}
+.head{
+    height: 40px;
+    border-bottom: none;
+    background-color: #8b9dc3;
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.menu-container{
+    background-color: #f7f7f7;
+    height: 65px;
+    text-align:center;
+}
+.menu{
+    background-color: #dfe3ee;
+    margin: 0%;
+    list-style: none;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid;
+    border-top: solid;
+}
+.menu li {
+    display: block;
+    color: #000;
+    float: left;
+    padding-left: 5%;
+}
+li a{
+    text-decoration: none;
+    color: #000;
+}
+li a:hover{
+    text-decoration: underline;
+    font-size: large;
+    color: blue;
+}
+.tool-bar{
+    height: 30px;
+    margin: 0%;
+    padding-top: 4px;
+    background-color: #f7f7f7;
+    margin-left: 5%;
+}
+.tool-bar li{
+    display: flex;
+    color: #000;
+    float: left;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.tool-bar li:hover{
+    color: blue;
+    font-size: 23px;
+    font-weight: bold;
+}
+.body{
+    height: calc(100vh - 115px);
+    display: flex;
+}
+.sidebar-container{
+    width: 20%;
+    background-color: #dfe3ee;
+    border-right: solid;
+    height: 100%;
+}
+.close{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+.close:hover{
+    font-weight: bolder;
+    color: brown;
+}
+.Files{
+    width: 100%;
+}
+.files_list{
+    margin-top: 5%;
+
+}
+.workspace_file_name{
+    display: block;
+}
+.delete_option{
+    font-size:larger;
+}
+.delete_option:hover{
+    color: brown;
+}
+.create_new {
+    display: none;
+    padding : 5px;
+    border: solid;
+}
+.new_workspace{
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+.submit_button{
+    margin: 5px;
+    font-size: 0.9rem;
+    background: aquamarine;
+    border-radius: 15px;
+    border: solid;
+    font-weight: bold;
+}
+.files{
+    display: inline-block;
+    width: 75%;
+    margin: 5%;
+    padding: 5%;
+    font-size: 1.1rem;
+    text-decoration: none !important;
+    color: #000;
+    background-color: #dfe3ee;border: solid;
+}
+.new_file_create {display: inline-block;
+    width: 75%;
+    margin: 5%;
+    padding: 5%;
+    font-size: 1.1rem;
+    text-decoration: none !important;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    background-color: #37c952;
+    border: solid;
+}
+.files:hover{
+    color: brown;
+}
+.files:active{
+    color: brown;
+}
+.more{
+    text-decoration: none;
+    font-weight:  bold;
+    margin: 5px;
+    text-align: right;
+}
+.options{
+    padding : 5px;
+    display: block;
+}
+.edit_options{
+    display: block;
+    margin: 10px;
+    padding: 2px;
+    text-decoration: none;
+    border: solid;
+    color: #000;
+}
+
+.popup{
+    font-size: 12px;
+}
+.popup > .popup_head{
+    width: 100%;
+    border-bottom: 1px solid grey;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+.canvas-container{
+    width: 100%;
+}
+.designing{
+    background-color: #8b9dc3;
+    width: 100%;
+}
+.design{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+.workspace{
+    width: 50%;
+    text-decoration: none;
+    background-color: #f7f7f7;
+    color: #000;
+    border: solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+.result{
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f7f7f7;
+    color: #000;
+    border-radius: 10px;
+    border: solid;
+    padding: 5px;
+}
+.active{
+    color:brown;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0;
+}
+.workspace:hover{
+    font-size: large;
+    color: blue;
+}
+circle{
+    stroke: #000;
+    stroke-width: 2;
+}
+.result:hover {
+    font-size: large;
+    color: blue;
+}
+.analysis_buttons{
+    display: inline;
+}
+.reachability_table{
+    font-size: 1.1rem;
+    width: 35%;
+}
+button:hover{
+    background-color: #37c952;
+}
+button:focus{
+    background-color: #37c952;
+}
+button:active{
+    background-color: #37c952;
+    box-shadow: 0 5px #666;
+        transform: translateY(4px);
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+    margin-top: 10px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+thead{
+    background-color:azure;
+}
+.safeness{
+    font-size: 1.1rem;
+    width: 30%;
+}
+.boundedness{
+    font-size: 1.1rem;
+    width: 35%;
+}
+.markings{
+    border: solid;
+        width: 100%;
+        height: calc(80vh);
+}
+.marking2{
+    background-color: #37c952;
+}
+.workspace1 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.showMsg {
+    display: block;
+}
+.dontShowMsg {
+    display: none;
+}
+.arrow{
+    marker-end: url(#triangle);
+}
+.output{
+    width: 100%;
+    height: 100%;
+}
+.helper{
+    border-style: solid;
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1050px){
+    .navbar{
+        display: none;
+    }
+    .body-container{
+        width: 100%;
+    }
+    .edit_options {
+            font-size: 16px;
+        }
+}
+@media screen and (max-width: 800px) {
+    .sidebar-container{
+        width: 30%;
+    }
+    .edit_options{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 300px) {
+    #for-mobile
+    .tool-bar {
+            margin-left: 0%;
+
+        }
+    .tool-bar li {
+            float: left;
+            margin-top: 2%;
+            font-size: 15px;
+        }
+    .body-container{
+        width: 100%;
+    }
+    .files {
+        font-size: 10px;
+    }
+}

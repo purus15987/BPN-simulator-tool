@@ -1,0 +1,129 @@
+{
+  "workspace": [
+    {
+      "workspaceName": "workspace1",
+      "place": [
+        {
+          "name": "mani"
+        }
+      ],
+      "arcs": [],
+      "transitions": [],
+      "id": 1
+    },
+    {
+      "workspaceName": "workspace2",
+      "places": [],
+      "arcs": [],
+      "transitions": [],
+      "id": 2
+    },
+    {
+      "workspaceName": "work1",
+      "places": [],
+      "arcs": [],
+      "transitions": [],
+      "id": 3
+    }
+  ],
+  "presentworkspace": {
+    "name": "workspace1"
+  },
+  "Elements": {},
+  "places": [
+    {
+      "coordinateX": 184,
+      "coordinateY": 233,
+      "name": "p0",
+      "tokens": 1,
+      "translate": "translate(184,233)",
+      "id": 1
+    },
+    {
+      "coordinateX": 455,
+      "coordinateY": 223,
+      "name": "p1",
+      "tokens": 1,
+      "translate": "translate(455,223)",
+      "id": 2
+    },
+    {
+      "coordinateX": 703,
+      "coordinateY": 224,
+      "name": "p2",
+      "tokens": 1,
+      "translate": "translate(703,224)",
+      "id": 3
+    }
+  ],
+  "arcs": [
+    {
+      "X1": 184,
+      "Y1": 233,
+      "X2": 314,
+      "Y2": 231,
+      "startingElement": "p0",
+      "endingElement": "t0",
+      "id": 1
+    },
+    {
+      "X1": 319,
+      "Y1": 231,
+      "X2": 430.0431406706251,
+      "Y2": 224.46805054878675,
+      "startingElement": "t0",
+      "endingElement": "p1",
+      "id": 2
+    },
+    {
+      "X1": 455,
+      "Y1": 223,
+      "X2": 593,
+      "Y2": 222,
+      "startingElement": "p1",
+      "endingElement": "t1",
+      "id": 3
+    },
+    {
+      "X1": 598,
+      "Y1": 222,
+      "X2": 678.0045339137116,
+      "Y2": 223.5238958840707,
+      "startingElement": "t1",
+      "endingElement": "p2",
+      "id": 4
+    },
+    {
+      "X1": 703,
+      "Y1": 224,
+      "X2": 812,
+      "Y2": 224,
+      "startingElement": "p2",
+      "endingElement": "t2",
+      "id": 5
+    }
+  ],
+  "transitions": [
+    {
+      "coordinateX": 319,
+      "coordinateY": 206,
+      "name": "t0",
+      "translate": "translate(319,231)",
+      "id": 1
+    },
+    {
+      "coordinateX": 598,
+      "coordinateY": 197,
+      "name": "t1",
+      "translate": "translate(598,222)",
+      "id": 2
+    },
+    {
+      "coordinateX": 817,
+      "coordinateY": 199,
+      "name": "t2",
+      "translate": "translate(817,224)",
+      "id": 3
+    }
+  ]
+}
